@@ -10,6 +10,7 @@
 nav{
     background-color: #E2725B;
     width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     
 }
 
@@ -35,7 +36,7 @@ nav{
     padding: 2%;
     margin: 5%;
     border-radius: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     font-weight: bold;
     font-size: 1.5rem;
     gap: 2rem;
@@ -45,10 +46,18 @@ nav{
 .add-btn{
     padding: 0;
     border: 0;
+    border-radius: 10em;
     background-color: transparent;
     cursor: pointer;
     margin-left: 90%;
-    size: 0.5rem;  
+    size: 0.3rem;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    transition:all 0.3s ease;
+}
+
+.add-btn:hover{
+    transform: scale(1.1);
 }
 
 .add-btn img{
@@ -66,6 +75,8 @@ nav{
     width: 95%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
 }
 
 .task p{
@@ -76,4 +87,9 @@ nav{
 .task img{
     width: 2rem;
     cursor: pointer;
+    transition:all 0.3s ease;
+}
+
+.task img:hover{
+    transform: scale(1.1);
 }
