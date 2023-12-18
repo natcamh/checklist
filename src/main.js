@@ -24,7 +24,7 @@ function createTask(){
     </div>
     `;
     cardToDo.appendChild(newTask);
-    moveTask(addBtn, cardDone, newTask);
+    moveTask(checkBtn, cardDone, newTask);
 }
 
 function moveTask(btn, card, task){
@@ -34,4 +34,7 @@ function moveTask(btn, card, task){
 
     });
 }
+
+//MANEJO POR ESTADO por variable 
+
 
